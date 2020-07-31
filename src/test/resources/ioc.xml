@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+    <bean id="person1" class="cn.codewjj.iocaop.model.Person">
+        <property name="age" value="18" />
+        <property name="sex" value="1" />
+        <property name="name" value="小红"/>
+    </bean>
+</beans>

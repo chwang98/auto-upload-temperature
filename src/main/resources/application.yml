@@ -1,0 +1,22 @@
+server:
+  port: 18083
+  tomcat:
+    uri-encoding: UTF-8
+
+# Spring Datasource Settings
+spring:
+  datasource:
+    name: druidDataSource
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://codewjj.cn/tiwen?serverTimezone=GMT%2b8
+    username: root
+    password: wang9998815590.*
+  jackson:
+    time-zone: Asia/Shanghai
+    date-format: yyyy-MM-dd HH:mm:ss
+logging:
+  file:
+    path: ./log
+
+
